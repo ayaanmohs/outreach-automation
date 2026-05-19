@@ -15,7 +15,7 @@
 - [X] MacBook Setup
 - [X] Logitech MX Master 3s
 - [X] Sony A7IV Accessories
-- [ ] Travel EDC Tech 2024
+- [X] Travel EDC Tech 2024
 - [ ] What's in my camera bag (Photography)
 - [ ] Best Minimalist Wallet for Men
 - [ ] Desk Setup 2024 (Productivity)
