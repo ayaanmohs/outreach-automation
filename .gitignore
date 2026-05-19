@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.csv
+.vscode/
+.agents/
+skills-lock.json
