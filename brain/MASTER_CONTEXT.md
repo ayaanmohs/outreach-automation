@@ -16,6 +16,7 @@ This folder is the "thinking engine" behind FetchUp. It stores the project's sou
 
 ### 3. [Outreach & Growth](./outreach_context/README.md)
 - **Strategy**: Manual high-intent outreach vs. the upcoming Lead Scraper automation.
+- **Snapshot**: [Latest Strategy & Voice](./outreach_context/STRATEGY_SNAPSHOT.md) - **READ THIS FIRST FOR OUTREACH TASKS.**
 - **Leads**: Target criteria (10k-100k subs, productivity/tech niche).
 
 ### 4. [Decision Log](./decision_log/README.md)

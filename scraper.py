@@ -33,44 +33,28 @@ def smoke_test_link(url):
     except:
         return "UNCERTAIN"
 
-def extract_product_name(description, broken_link):
-    """Attempts to find the product name and cleans it for human tone."""
+def extract_clean_product_name(description, broken_link):
+    """Finds the product name and cleans it for the team to use in comments."""
     lines = description.split('\n')
     for line in lines:
         if broken_link in line:
-            # 1. Clean out the URL and symbols
-            clean = line.replace(broken_link, "").strip(" -:▶️👉🔗[]()")
-            # 2. Lowercase (Human marker)
-            clean = clean.lower()
-            # 3. Prune long SEO names (keep only first 3 words)
+            # Clean symbols and the link itself
+            clean = line.replace(broken_link, "").strip(" -:▶️👉🔗[]()#")
+            # Prune long Amazon SEO titles to the first 3-4 words
             words = clean.split()
-            if len(words) > 3:
-                clean = " ".join(words[:3])
-            
-            if clean and len(clean) < 40:
-                return clean
-    return "that product"
+            if len(words) > 4:
+                clean = " ".join(words[:4])
+            return clean.lower()
+    return "the link"
 
-def extract_timestamp_and_context(description):
-    timestamps = re.findall(r'(\d{1,2}:\d{2})', description)
-    if not timestamps: return None, "the vid"
-    return timestamps[0], "the intro"
-
-def generate_fan_first_comment(video_title, broken_link, views, description):
-    if not broken_link: return ""
-    product = extract_product_name(description, broken_link)
-    ts, context = extract_timestamp_and_context(description)
-    formatted_views = f"{int(views):,}"
-    
-    # "Human/Sloppy" Templates - No caps, minimal grammar
-    templates = [
-        f"man i was literally about to grab the {product} but the link in the desc is 404ing for me. such a bummer lol. vid was sick though.",
-        f"yo just a heads up, the {product} link seems down. tried to grab it but got a 404. with the views this is getting u probably want to fix that so u don't miss out! loved the breakdown at {ts if ts else ''}.",
-        f"is it just me or is the {product} link dead? wanted to check it out after the {context} part but it 404'd. really good info in this one regardless.",
-        f"really wanted to buy the {product} after watching this but the link in the desc is 404ing. just thought i'd flag it for u so u don't lose the commission!",
-        f"wait is the {product} link in the desc broken? just tried clicking it and it 404'd. was gonna check it out but can't buy it now lol. thought i'd let u know. keep it up!"
-    ]
-    return random.choice(templates)
+def get_channel_handle(youtube, channel_id):
+    """Fetches the @handle for easier searching on IG/Twitter."""
+    try:
+        request = youtube.channels().list(part="snippet", id=channel_id)
+        response = request.execute()
+        return response['items'][0]['snippet'].get('customUrl', 'N/A')
+    except:
+        return "N/A"
 
 def search_leads(query, target_gold=2, max_scan=50):
     youtube = get_youtube_client()
@@ -81,12 +65,12 @@ def search_leads(query, target_gold=2, max_scan=50):
     next_page_token = None
     date_limit = (datetime.now() - timedelta(days=MIN_VIDEO_AGE_DAYS)).isoformat() + "Z"
     
-    print(f"\n🔱 FETCHUP 'HUMAN SNIPER' v3.2 (GOLD ONLY)")
+    print(f"\n🔱 FETCHUP 'DATA SNIPER' v4.0 (GOLD ONLY)")
     print(f"🎯 TARGET: {query} | 🏆 GOAL: {target_gold} GOLD Leads\n")
 
     while gold_found_total < target_gold and videos_scanned < max_scan:
         search_request = youtube.search().list(
-            q=f"{query} review tutorial gear setup accessories",
+            q=f"{query} review tutorial accessories gear setup",
             part="snippet", type="video", videoDuration="medium",
             publishedBefore=date_limit, maxResults=50, pageToken=next_page_token, order="relevance"
         )
@@ -101,10 +85,11 @@ def search_leads(query, target_gold=2, max_scan=50):
             channel_name = item['snippet']['channelTitle']
             
             if videos_scanned % 10 == 0:
-                print(f"--- Scanned {videos_scanned} videos... (Found {gold_found_total} GOLD) ---")
+                print(f"--- Scanned {videos_scanned} videos... (Found {gold_found_total} Valid GOLD) ---")
 
             if channel_id in seen_channels: continue
 
+            # Get Detailed Stats
             video_request = youtube.videos().list(part="snippet,statistics", id=video_id)
             video_response = video_request.execute()
             if not video_response['items']: continue
@@ -122,7 +107,7 @@ def search_leads(query, target_gold=2, max_scan=50):
             
             status, broken_link = "POTENTIAL", ""
             if monetizable_links:
-                for link in monetizable_links[:10]:
+                for link in monetizable_links[:12]: # Check more links for complexity
                     if smoke_test_link(link) == "GOLD":
                         status, broken_link = "GOLD", link
                         break
@@ -131,26 +116,29 @@ def search_leads(query, target_gold=2, max_scan=50):
                 continue
 
             try:
+                # Subscriber check
                 request = youtube.channels().list(part="statistics", id=channel_id)
                 response = request.execute()
                 subs = int(response['items'][0]['statistics']['subscriberCount']) if response['items'] else 0
                 
                 if MIN_SUBS <= subs <= MAX_SUBS:
                     seen_channels.add(channel_id)
-                    draft = generate_fan_first_comment(video_title, broken_link, views, full_desc)
+                    handle = get_channel_handle(youtube, channel_id)
+                    product_name = extract_clean_product_name(full_desc, broken_link)
                     
                     leads.append({
                         "Video_Link": f"https://www.youtube.com/watch?v={video_id}",
+                        "Broken_Product": product_name,
+                        "Channel_Handle": handle,
+                        "Channel_Name": channel_name,
                         "Broken_Link": broken_link,
-                        "Draft_Comment": draft,
-                        "Channel": channel_name,
-                        "Subs": subs,
                         "Views": views,
+                        "Subs": subs,
                         "Video_Title": video_title
                     })
                     
                     gold_found_total += 1
-                    print(f"🎯 [GOLD FOUND] {channel_name:.<25} | {views:,} views")
+                    print(f"🎯 [GOLD FOUND] {channel_name:.<25} | Product: {product_name}")
                 else:
                     pass
             except:
