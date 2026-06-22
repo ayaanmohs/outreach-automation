@@ -96,3 +96,16 @@
 1. Pick a keyword from the [ ] list.
 2. Run `scraper.py` v4.0.
 3. Once completed, move the keyword to the **Completed** section.
+
+
+## Commenting ways different to avoid shadowban
+   1. The Direct Buyer: "hey, was just trying to grab the [Product] from the description but the link seems to be down for me. is it acting up for anyone else or just me?"
+   2. The "Support the Channel" Hook: "wanted to support the channel and pick up the [Product] but the link is 404ing. just thought you'd want to know so you don't lose the commission!"
+   3. The Comparison Check: "loving the breakdown of the [Product]. quick heads up though: the link below it isn't loading on my end. curious if it's a regional thing or if it's dead?"
+   4. The Mobile vs Desktop Hook: "idk if it's just me but that [Product] link in the description isn't working on my phone. keeps looping back to the home page. is it broken for everyone?"
+   5. The Casual Alert: "yo, heads up—the link for the [Product] at [Timestamp] seems to be expired. just wanted to grab one but noticed it's off."
+   6. The Helpful Fan: "great vid! just a small thing: i tried clicking the [Product] link to check the price but it's going to a dead page. might be costing you some sales!"
+   7. The "Link is Down" Hook: "is it just me or is the [Product] link in the description dead? i was ready to sign up but it's not letting me through."
+   8. The Redirect Error: "hey, that [Product] affiliate link seems to have a redirect error. i've tried a few times but no luck. is it just me?"
+   9. The Deal Seeker: "i was looking for that [Product] discount you mentioned but the link in the description is off. is it just me or everyone?"
+   10. The Specific Problem: "the link for the [Product] is 404ing for me. i really wanted to check out its [Specific Feature], but the page is gone. is it just me?"

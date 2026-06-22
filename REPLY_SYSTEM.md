@@ -6,16 +6,23 @@ To transition a "Thanks for the heads up!" comment into an off-platform conversa
 
 ---
 
-## Phase 1: The "Auditor's Pivot"
+## Phase 1: The "Soft Pivot" (The Gift)
 *When they reply to your initial 404 alert.*
 
-### Archetype A: The Polite Creator ("Thanks so much! Fixed it.")
-**Goal:** Challenge their manual process.
-- **The Reply:** "No worries! It's crazy how often those sneak up on you. Do you actually have a system to track these or do you just find them by luck when someone comments?"
+### The Goal: Avoid looking like a salesman. Keep the "Helpful Peer" persona.
+
+**Scenario: The Creator says "Thanks!" or "Fixed it!"**
+
+- **The Old way (FAILED):** "Do you have a system to track these?" -> *Smells like a pitch.*
+- **The New way (THE GIFT):** "No worries! Happy to help. I actually had the same issue on my channel and it drove me nuts, so I ended up building a little script to just scan everything for me. Tell you what—I can run a quick scan on your last 10 videos for you if you want? Just to make sure no others are leaking. No catch, just paying it forward."
+
+### Archetype A: The Polite Creator ("Thanks so much!")
+**Goal:** Transition to a full audit.
+- **The Reply:** "All good! It's crazy how often those sneak up on you. I've got a scanner I built for my own stuff—want me to run a quick check on your last 10 vids for free to see if any others are acting up? Happy to send you a list if I find anything."
 
 ### Archetype B: The Skeptical Creator ("Works for me / Are you sure?")
 **Goal:** Prove the "Evidence-First" authority.
-- **The Reply:** "Ah, weird. I'm seeing a 404 on my end (tried a few times). Sometimes these links break only in certain regions or when redirects get stripped. I actually built a scanner for my own channel to find these—want me to run a full check on your last 10 vids for free to be sure?"
+- **The Reply:** "Ah, weird. I'm seeing a 404 on my end (tried on mobile and desktop). Sometimes redirects get stripped or links break only in certain regions. I can run a deeper scan on your recent uploads for you if you want? It'll confirm if it's just a fluke or a real leak."
 
 ### Archetype C: The Busy Creator ("Thanks! I'll look into it later.")
 **Goal:** Frictionless Value.
