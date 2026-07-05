@@ -1,0 +1,36 @@
+CREATOR AUDIT BREAKDOWN: @reysu
+Generated at: 2026-06-27 13:15:27
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 1,650,584 views
+- Adjusted Monthly Leak: $2,571.3
+- Adjusted Yearly Exposure: $30,855.63
+- Daily Cost of Inaction: $84.54
+============================================================
+
+TOP 3 LEAKING VIDEOS BREAKDOWN:
+
+1. 20+ underrated tech and travel products that improved my life (one bag for everything)
+   - Video Link: https://www.youtube.com/watch?v=Tpz2Ld6PfV0
+   - Views: 426,068
+   - Monthly Views: 8,521
+   - Adjusted Monthly Leak: $2032.77
+   - Adjusted Yearly Exposure: $24393.24
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. productivity desk setup tour 2025
+   - Video Link: https://www.youtube.com/watch?v=vIhgK26nDY8
+   - Views: 1,081,963
+   - Monthly Views: 5,409
+   - Adjusted Monthly Leak: $368.68
+   - Adjusted Yearly Exposure: $4424.13
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. my favorite pens for journaling (stationery tour 2025)
+   - Video Link: https://www.youtube.com/watch?v=4Lao-QLQFo0
+   - Views: 142,553
+   - Monthly Views: 712
+   - Adjusted Monthly Leak: $169.85
+   - Adjusted Yearly Exposure: $2038.26
+   - Link Categories: AFFILIATE (Gear/Tech)
+

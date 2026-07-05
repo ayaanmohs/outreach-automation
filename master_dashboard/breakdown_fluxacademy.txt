@@ -1,0 +1,20 @@
+CREATOR AUDIT BREAKDOWN: @fluxacademy
+Generated at: 2026-07-03 14:33:47
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 90,132 views
+- Adjusted Monthly Leak: $107.35
+- Adjusted Yearly Exposure: $1,288.22
+- Daily Cost of Inaction: $3.53
+============================================================
+
+TOP 1 LEAKING VIDEOS BREAKDOWN:
+
+1. Framer Tutorial: Build a Shopify-integrated Website
+   - Video Link: https://www.youtube.com/watch?v=IQCUEfhYiVo
+   - Views: 90,132
+   - Monthly Views: 450
+   - Adjusted Monthly Leak: $107.35
+   - Adjusted Yearly Exposure: $1288.22
+   - Link Categories: AFFILIATE (Gear/Tech)
+

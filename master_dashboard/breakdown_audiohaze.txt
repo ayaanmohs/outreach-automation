@@ -1,0 +1,28 @@
+CREATOR AUDIT BREAKDOWN: @audiohaze
+Generated at: 2026-07-03 13:25:33
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 541,154 views
+- Adjusted Monthly Leak: $77.3
+- Adjusted Yearly Exposure: $927.52
+- Daily Cost of Inaction: $2.54
+============================================================
+
+TOP 2 LEAKING VIDEOS BREAKDOWN:
+
+1. How Mac Demarco Became a Legend with a Tiny Bedroom and a Microphone
+   - Video Link: https://www.youtube.com/watch?v=md3UuyeCnR0
+   - Views: 316,051
+   - Monthly Views: 189
+   - Adjusted Monthly Leak: $45.09
+   - Adjusted Yearly Exposure: $541.05
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. How to Sound Like Radiohead
+   - Video Link: https://www.youtube.com/watch?v=LV5xb3A0S1A
+   - Views: 225,103
+   - Monthly Views: 135
+   - Adjusted Monthly Leak: $32.21
+   - Adjusted Yearly Exposure: $386.47
+   - Link Categories: AFFILIATE (Gear/Tech)
+

@@ -1,0 +1,20 @@
+CREATOR AUDIT BREAKDOWN: @enamalamin
+Generated at: 2026-07-03 14:25:47
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 319,041 views
+- Adjusted Monthly Leak: $45.56
+- Adjusted Yearly Exposure: $546.78
+- Daily Cost of Inaction: $1.5
+============================================================
+
+TOP 1 LEAKING VIDEOS BREAKDOWN:
+
+1. Snapshot Photo Freeze Frame Effect in your video | Premiere Pro Tutorial
+   - Video Link: https://www.youtube.com/watch?v=cnnKo-aumU4
+   - Views: 319,041
+   - Monthly Views: 191
+   - Adjusted Monthly Leak: $45.56
+   - Adjusted Yearly Exposure: $546.78
+   - Link Categories: AFFILIATE (Gear/Tech)
+

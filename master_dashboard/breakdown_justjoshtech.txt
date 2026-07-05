@@ -1,0 +1,92 @@
+CREATOR AUDIT BREAKDOWN: @justjoshtech
+Generated at: 2026-07-03 09:41:25
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 6,604,706 views
+- Adjusted Monthly Leak: $3,803.41
+- Adjusted Yearly Exposure: $45,641.14
+- Daily Cost of Inaction: $125.04
+============================================================
+
+TOP 10 LEAKING VIDEOS BREAKDOWN:
+
+1. Asus Zenbook 14 &amp; 14X - The BEST Laptop to Buy Right Now ... It&#39;s NOT even close
+   - Video Link: https://www.youtube.com/watch?v=6ZJFciRzxBI
+   - Views: 608,976
+   - Monthly Views: 3,044
+   - Adjusted Monthly Leak: $1534.18
+   - Adjusted Yearly Exposure: $18410.11
+   - Link Categories: RECURRING / PATREON
+
+2. Best Laptop of 2024 - The Awards!
+   - Video Link: https://www.youtube.com/watch?v=Z1zhDGWEBsY
+   - Views: 265,492
+   - Monthly Views: 1,327
+   - Adjusted Monthly Leak: $557.34
+   - Adjusted Yearly Exposure: $6688.08
+   - Link Categories: PARTNERSHIP / SPONSORSHIP
+
+3. Asus Zenbook 14 Review (2024)
+   - Video Link: https://www.youtube.com/watch?v=vQsoMhYTN1s
+   - Views: 380,144
+   - Monthly Views: 1,900
+   - Adjusted Monthly Leak: $453.26
+   - Adjusted Yearly Exposure: $5439.17
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. The Best Laptops of 2022 - The ULTIMATE Guide!
+   - Video Link: https://www.youtube.com/watch?v=rGgDatUdedw
+   - Views: 907,200
+   - Monthly Views: 544
+   - Adjusted Monthly Leak: $274.18
+   - Adjusted Yearly Exposure: $3290.11
+   - Link Categories: RECURRING / PATREON
+
+5. Best Laptops for Students - 2020 Ultimate Guide
+   - Video Link: https://www.youtube.com/watch?v=RpfL2ZBj2Ik
+   - Views: 825,383
+   - Monthly Views: 495
+   - Adjusted Monthly Leak: $249.48
+   - Adjusted Yearly Exposure: $2993.76
+   - Link Categories: RECURRING / PATREON
+
+6. Ryzen 4500U is AWESOME and Lenovo&#39;s IdeaPad 5 REVOLUTIONIZES the Budget Category
+   - Video Link: https://www.youtube.com/watch?v=3jf7itO2YKg
+   - Views: 686,090
+   - Monthly Views: 411
+   - Adjusted Monthly Leak: $207.14
+   - Adjusted Yearly Exposure: $2485.73
+   - Link Categories: RECURRING / PATREON
+
+7. Mac vs PC Laptops in 2020!!
+   - Video Link: https://www.youtube.com/watch?v=equ8xgIcqe4
+   - Views: 572,531
+   - Monthly Views: 343
+   - Adjusted Monthly Leak: $172.87
+   - Adjusted Yearly Exposure: $2074.46
+   - Link Categories: RECURRING / PATREON
+
+8. Best Laptops for Programmers 2020
+   - Video Link: https://www.youtube.com/watch?v=WutBn_mm0c8
+   - Views: 1,135,064
+   - Monthly Views: 681
+   - Adjusted Monthly Leak: $98.06
+   - Adjusted Yearly Exposure: $1176.77
+   - Link Categories: RECURRING / PATREON
+
+9. Dell XPS 9300 (2020) Review - Be WARNED!!
+   - Video Link: https://www.youtube.com/watch?v=rLoZHesS40Y
+   - Views: 269,724
+   - Monthly Views: 161
+   - Adjusted Monthly Leak: $81.14
+   - Adjusted Yearly Exposure: $973.73
+   - Link Categories: RECURRING / PATREON
+
+10. My Ultimate BUDGET Laptop Buying Guide
+   - Video Link: https://www.youtube.com/watch?v=Tc-drtjaey8
+   - Views: 376,274
+   - Monthly Views: 225
+   - Adjusted Monthly Leak: $73.58
+   - Adjusted Yearly Exposure: $883.01
+   - Link Categories: AFFILIATE (Gear/Tech), RECURRING / PATREON
+

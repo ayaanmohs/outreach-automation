@@ -1,0 +1,84 @@
+CREATOR AUDIT BREAKDOWN: @markspurrell
+Generated at: 2026-07-03 11:45:39
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 5,703,702 views
+- Adjusted Monthly Leak: $571.38
+- Adjusted Yearly Exposure: $6,856.63
+- Daily Cost of Inaction: $18.79
+============================================================
+
+TOP 9 LEAKING VIDEOS BREAKDOWN:
+
+1. iPhone 11: My Honest Opinion After Two Months
+   - Video Link: https://www.youtube.com/watch?v=SKBGvV9LW58
+   - Views: 913,727
+   - Monthly Views: 548
+   - Adjusted Monthly Leak: $130.73
+   - Adjusted Yearly Exposure: $1568.77
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. 7 Reasons Why You Should Buy a Samsung S9 in 2021!
+   - Video Link: https://www.youtube.com/watch?v=AMCkpoIZprU
+   - Views: 729,414
+   - Monthly Views: 437
+   - Adjusted Monthly Leak: $104.25
+   - Adjusted Yearly Exposure: $1251.01
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. I Caved and Bought AirPods Pro: Here&#39;s My Honest Thoughts.
+   - Video Link: https://www.youtube.com/watch?v=4AeMWygiN9g
+   - Views: 575,352
+   - Monthly Views: 345
+   - Adjusted Monthly Leak: $82.3
+   - Adjusted Yearly Exposure: $987.64
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. Beats Studio Buds vs. Airpods Pro: Which Should You Buy?
+   - Video Link: https://www.youtube.com/watch?v=hD98qbS8JC8
+   - Views: 1,270,640
+   - Monthly Views: 762
+   - Adjusted Monthly Leak: $51.94
+   - Adjusted Yearly Exposure: $623.26
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+5. AirPods Max vs. Sony XM4: Pick the Right One
+   - Video Link: https://www.youtube.com/watch?v=xLMdDXq0UWk
+   - Views: 1,117,184
+   - Monthly Views: 670
+   - Adjusted Monthly Leak: $45.67
+   - Adjusted Yearly Exposure: $548.01
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+6. Samsung S21 Ultra After 5 Months: The Final Verdict
+   - Video Link: https://www.youtube.com/watch?v=WY07X_G-LaM
+   - Views: 309,583
+   - Monthly Views: 185
+   - Adjusted Monthly Leak: $44.13
+   - Adjusted Yearly Exposure: $529.6
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+7. Samsung Tab S7 Review: The Best Android Tablet Yet?
+   - Video Link: https://www.youtube.com/watch?v=g2RLKUX46N8
+   - Views: 297,164
+   - Monthly Views: 178
+   - Adjusted Monthly Leak: $42.46
+   - Adjusted Yearly Exposure: $509.56
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+8. Apple Watch Series 4 | An Honest Long Term Review
+   - Video Link: https://www.youtube.com/watch?v=n2WFxqEoGCU
+   - Views: 255,871
+   - Monthly Views: 153
+   - Adjusted Monthly Leak: $36.5
+   - Adjusted Yearly Exposure: $438.0
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+9. The Pixel 4 is an INSANE Value Right Now!
+   - Video Link: https://www.youtube.com/watch?v=qn8OZJtUAYI
+   - Views: 234,767
+   - Monthly Views: 140
+   - Adjusted Monthly Leak: $33.4
+   - Adjusted Yearly Exposure: $400.78
+   - Link Categories: AFFILIATE (Gear/Tech)
+

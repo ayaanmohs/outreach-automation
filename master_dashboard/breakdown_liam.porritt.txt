@@ -1,0 +1,92 @@
+CREATOR AUDIT BREAKDOWN: @liam.porritt
+Generated at: 2026-07-03 12:32:11
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 12,170,698 views
+- Adjusted Monthly Leak: $4,692.07
+- Adjusted Yearly Exposure: $56,304.77
+- Daily Cost of Inaction: $154.26
+============================================================
+
+TOP 10 LEAKING VIDEOS BREAKDOWN:
+
+1. My Portable Desk Setup and Everyday Carry - 2026
+   - Video Link: https://www.youtube.com/watch?v=64XoebP0-Jg
+   - Views: 751,312
+   - Monthly Views: 3,756
+   - Adjusted Monthly Leak: $896.03
+   - Adjusted Yearly Exposure: $10752.38
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. How I Track My Money - The System That&#39;s Making Me A Millionaire
+   - Video Link: https://www.youtube.com/watch?v=DCcqUaV8TVo
+   - Views: 515,037
+   - Monthly Views: 2,575
+   - Adjusted Monthly Leak: $614.29
+   - Adjusted Yearly Exposure: $7371.5
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. The Payday Routine That Made Me £250,000 - Do This EVERY Time You Get Paid
+   - Video Link: https://www.youtube.com/watch?v=--YIxoZWr_A
+   - Views: 365,225
+   - Monthly Views: 1,826
+   - Adjusted Monthly Leak: $435.61
+   - Adjusted Yearly Exposure: $5227.33
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. My BUDGET Productivity Desk Setup - 2023
+   - Video Link: https://www.youtube.com/watch?v=-TKzSjOvqV0
+   - Views: 349,442
+   - Monthly Views: 1,747
+   - Adjusted Monthly Leak: $416.76
+   - Adjusted Yearly Exposure: $5001.17
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+5. Why Your Life Is So Boring - 13 Productive Things to do with your Free Time
+   - Video Link: https://www.youtube.com/watch?v=UOz_x7kCvec
+   - Views: 231,532
+   - Monthly Views: 1,157
+   - Adjusted Monthly Leak: $276.01
+   - Adjusted Yearly Exposure: $3312.17
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+6. What I REALLY Think About Corporate Law - My Honest Opinion
+   - Video Link: https://www.youtube.com/watch?v=Qk7g7zA8JCs
+   - Views: 211,965
+   - Monthly Views: 1,059
+   - Adjusted Monthly Leak: $252.64
+   - Adjusted Yearly Exposure: $3031.62
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+7. Building The ULTIMATE Desk Setup For 2025
+   - Video Link: https://www.youtube.com/watch?v=ZbmlQ4IP7PE
+   - Views: 210,460
+   - Monthly Views: 1,052
+   - Adjusted Monthly Leak: $250.97
+   - Adjusted Yearly Exposure: $3011.58
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+8. Money Habits Keeping You Poor - 5 Ways to Radically Improve your Finances
+   - Video Link: https://www.youtube.com/watch?v=TWTxnMYDFms
+   - Views: 151,866
+   - Monthly Views: 759
+   - Adjusted Monthly Leak: $181.07
+   - Adjusted Yearly Exposure: $2172.8
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+9. 90 Days To A Better Life - A Full Guide To Reach Your (Huge) Potential
+   - Video Link: https://www.youtube.com/watch?v=jH8IZFECiCg
+   - Views: 130,473
+   - Monthly Views: 652
+   - Adjusted Monthly Leak: $155.54
+   - Adjusted Yearly Exposure: $1866.49
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+10. 24 Easy Habits To Effortlessly Improve Your Life
+   - Video Link: https://www.youtube.com/watch?v=5YnEaSLyTQ4
+   - Views: 125,574
+   - Monthly Views: 627
+   - Adjusted Monthly Leak: $149.58
+   - Adjusted Yearly Exposure: $1794.93
+   - Link Categories: AFFILIATE (Gear/Tech)
+

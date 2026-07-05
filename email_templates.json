@@ -1,0 +1,14 @@
+{
+  "default_outreach": {
+    "subject": "quick heads up re: some broken links on your channel",
+    "body": "Hey {channel_name},\n\nWas watching your video \"{top_video_title}\" and noticed that the {category} link ({broken_link_url}) is currently broken (returns a 404/dead page).\n\nI ran a quick check on your popular uploads and noticed this is happening across {total_broken_videos} of your videos, which is costing you an estimated ${total_monthly_leak}/month in lost commissions.\n\nI have the full list of the broken links and the exact videos they are in. Happy to send the list over if you want to swap them out? No catch, just paying it forward.\n\nBest,\n[Your Name]"
+  },
+  "loss_focused": {
+    "subject": "quick question about your youtube description links",
+    "body": "Hey {channel_name},\n\nHope you're doing well.\n\nI was going through some of your videos and wanted to let you know that the {category} link in \"{top_video_title}\" ({broken_link_url}) is currently dead and throwing a 404 error.\n\nBecause your videos get steady traffic, this link rot is costing your channel about ${daily_leak}/day (${total_monthly_leak}/month) in commission leaks across your catalog.\n\nI compiled a quick report of all the dead links and the exact timestamps/descriptions where they are. Would you like me to send it over so you can update them? No catch at all.\n\nBest,\n[Your Name]"
+  },
+  "short_and_sweet": {
+    "subject": "broken links on your channel",
+    "body": "Hey {channel_name},\n\nJust wanted to give you a quick heads up that the {category} link ({broken_link_url}) in your video \"{top_video_title}\" is currently broken and pointing to a 404 page.\n\nIt looks like there are a few other dead links across your videos costing you about ${total_monthly_leak}/month in commissions.\n\nI have a list of all of them ready if you want me to send it over to save you the time of looking for them. Let me know!\n\nBest,\n[Your Name]"
+  }
+}

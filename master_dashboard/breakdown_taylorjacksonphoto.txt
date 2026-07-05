@@ -1,0 +1,20 @@
+CREATOR AUDIT BREAKDOWN: @taylorjacksonphoto
+Generated at: 2026-07-04 20:46:20
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 69,933 views
+- Adjusted Monthly Leak: $17.22
+- Adjusted Yearly Exposure: $206.64
+- Daily Cost of Inaction: $0.57
+============================================================
+
+TOP 1 LEAKING VIDEOS BREAKDOWN:
+
+1. CANON R6 REVIEW AFTER 6 MONTHS
+   - Video Link: https://www.youtube.com/watch?v=8SEpaXyY6-8
+   - Views: 69,933
+   - Monthly Views: 41
+   - Adjusted Monthly Leak: $17.22
+   - Adjusted Yearly Exposure: $206.64
+   - Link Categories: SAAS / SOFTWARE
+

@@ -1,0 +1,20 @@
+CREATOR AUDIT BREAKDOWN: @anthonygugliotta
+Generated at: 2026-07-03 12:56:58
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 126,523 views
+- Adjusted Monthly Leak: $150.77
+- Adjusted Yearly Exposure: $1,809.24
+- Daily Cost of Inaction: $4.96
+============================================================
+
+TOP 1 LEAKING VIDEOS BREAKDOWN:
+
+1. My 2026 CUSTOM Video Editing PC Build 💻
+   - Video Link: https://www.youtube.com/watch?v=w4twTZpRn_k
+   - Views: 126,523
+   - Monthly Views: 632
+   - Adjusted Monthly Leak: $150.77
+   - Adjusted Yearly Exposure: $1809.24
+   - Link Categories: AFFILIATE (Gear/Tech)
+

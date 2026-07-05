@@ -1,0 +1,28 @@
+CREATOR AUDIT BREAKDOWN: @audiouniversity
+Generated at: 2026-07-02 19:25:43
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 806,771 views
+- Adjusted Monthly Leak: $115.23
+- Adjusted Yearly Exposure: $1,382.69
+- Daily Cost of Inaction: $3.79
+============================================================
+
+TOP 2 LEAKING VIDEOS BREAKDOWN:
+
+1. Dynamic vs Condenser Microphones | What&#39;s The Difference?
+   - Video Link: https://www.youtube.com/watch?v=dM5AgwWimEE
+   - Views: 638,736
+   - Monthly Views: 383
+   - Adjusted Monthly Leak: $91.37
+   - Adjusted Yearly Exposure: $1096.42
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. AUDIO CONNECTORS | XLR, 1/4-Inch, 3.5mm, SpeakON, RCA, &amp; More
+   - Video Link: https://www.youtube.com/watch?v=cA7cmrQTXBw
+   - Views: 168,035
+   - Monthly Views: 100
+   - Adjusted Monthly Leak: $23.86
+   - Adjusted Yearly Exposure: $286.27
+   - Link Categories: AFFILIATE (Gear/Tech)
+

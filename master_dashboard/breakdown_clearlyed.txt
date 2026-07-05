@@ -1,0 +1,28 @@
+CREATOR AUDIT BREAKDOWN: @clearlyed
+Generated at: 2026-07-04 16:19:27
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 576,846 views
+- Adjusted Monthly Leak: $82.3
+- Adjusted Yearly Exposure: $987.63
+- Daily Cost of Inaction: $2.71
+============================================================
+
+TOP 2 LEAKING VIDEOS BREAKDOWN:
+
+1. Photoshop tutorial - Photoshop Refine Edge Tutorial For Beginners
+   - Video Link: https://www.youtube.com/watch?v=7XATrDdkXzs
+   - Views: 359,798
+   - Monthly Views: 215
+   - Adjusted Monthly Leak: $51.29
+   - Adjusted Yearly Exposure: $615.48
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. How to use Adobe Camera Raw In Photoshop CC
+   - Video Link: https://www.youtube.com/watch?v=CoLsvubYqio
+   - Views: 217,048
+   - Monthly Views: 130
+   - Adjusted Monthly Leak: $31.01
+   - Adjusted Yearly Exposure: $372.15
+   - Link Categories: AFFILIATE (Gear/Tech)
+

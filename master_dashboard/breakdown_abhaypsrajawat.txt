@@ -1,0 +1,20 @@
+CREATOR AUDIT BREAKDOWN: @abhaypsrajawat
+Generated at: 2026-07-03 14:16:45
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 4,565 views
+- Adjusted Monthly Leak: $5.25
+- Adjusted Yearly Exposure: $62.98
+- Daily Cost of Inaction: $0.17
+============================================================
+
+TOP 1 LEAKING VIDEOS BREAKDOWN:
+
+1. Freelancing Desk Setup Tour - A Basic Setup
+   - Video Link: https://www.youtube.com/watch?v=86b_MtwrEww
+   - Views: 4,565
+   - Monthly Views: 22
+   - Adjusted Monthly Leak: $5.25
+   - Adjusted Yearly Exposure: $62.98
+   - Link Categories: AFFILIATE (Gear/Tech)
+

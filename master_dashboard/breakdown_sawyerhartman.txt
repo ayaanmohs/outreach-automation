@@ -1,0 +1,92 @@
+CREATOR AUDIT BREAKDOWN: @sawyerhartman
+Generated at: 2026-07-03 14:32:40
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 30,543,170 views
+- Adjusted Monthly Leak: $1,821.74
+- Adjusted Yearly Exposure: $21,860.96
+- Daily Cost of Inaction: $59.89
+============================================================
+
+TOP 10 LEAKING VIDEOS BREAKDOWN:
+
+1. How Lighting Can Change Your Photography Forever.
+   - Video Link: https://www.youtube.com/watch?v=Z4eVEmcBwxk
+   - Views: 925,039
+   - Monthly Views: 555
+   - Adjusted Monthly Leak: $132.4
+   - Adjusted Yearly Exposure: $1588.81
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. Racist Accents - feat. Shane Dawson
+   - Video Link: https://www.youtube.com/watch?v=oUEQcqPMqng
+   - Views: 3,020,354
+   - Monthly Views: 1,812
+   - Adjusted Monthly Leak: $123.51
+   - Adjusted Yearly Exposure: $1482.07
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. Lightroom Tutorial BASICS | Photo Editing Masterclass
+   - Video Link: https://www.youtube.com/watch?v=5x3Hy7zie94
+   - Views: 2,975,576
+   - Monthly Views: 1,785
+   - Adjusted Monthly Leak: $121.67
+   - Adjusted Yearly Exposure: $1459.99
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. MY NEW GIRLFRIEND • Sawyer Hartman
+   - Video Link: https://www.youtube.com/watch?v=ywgjGy_OQ6w
+   - Views: 830,632
+   - Monthly Views: 498
+   - Adjusted Monthly Leak: $118.8
+   - Adjusted Yearly Exposure: $1425.63
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+5. Cotton Balls - feat Drunk Tyler Oakley
+   - Video Link: https://www.youtube.com/watch?v=u5Z2hE7azEY
+   - Views: 2,872,420
+   - Monthly Views: 1,723
+   - Adjusted Monthly Leak: $117.44
+   - Adjusted Yearly Exposure: $1409.28
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+6. How To Edit Photos Like A PRO | Lightroom Tutorial
+   - Video Link: https://www.youtube.com/watch?v=e-5RVTrrrYg
+   - Views: 2,674,101
+   - Monthly Views: 1,604
+   - Adjusted Monthly Leak: $109.33
+   - Adjusted Yearly Exposure: $1311.94
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+7. Nerds - feat. Caspar Lee
+   - Video Link: https://www.youtube.com/watch?v=ZVBCHto5yj0
+   - Views: 746,374
+   - Monthly Views: 447
+   - Adjusted Monthly Leak: $106.64
+   - Adjusted Yearly Exposure: $1279.64
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+8. Awards - feat. Jim Chapman
+   - Video Link: https://www.youtube.com/watch?v=jCDf4HLgVBA
+   - Views: 716,412
+   - Monthly Views: 429
+   - Adjusted Monthly Leak: $102.34
+   - Adjusted Yearly Exposure: $1228.11
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+9. How To Build a Cinematic FPV Racing Drone! • DJI Fpv
+   - Video Link: https://www.youtube.com/watch?v=X79qX_kAloY
+   - Views: 652,948
+   - Monthly Views: 391
+   - Adjusted Monthly Leak: $93.28
+   - Adjusted Yearly Exposure: $1119.32
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+10. Reacting To Old Videos
+   - Video Link: https://www.youtube.com/watch?v=nlTFsyXlNV4
+   - Views: 625,823
+   - Monthly Views: 375
+   - Adjusted Monthly Leak: $89.46
+   - Adjusted Yearly Exposure: $1073.52
+   - Link Categories: AFFILIATE (Gear/Tech)
+

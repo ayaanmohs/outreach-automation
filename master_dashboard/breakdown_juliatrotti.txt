@@ -1,0 +1,92 @@
+CREATOR AUDIT BREAKDOWN: @juliatrotti
+Generated at: 2026-07-03 10:41:51
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 5,068,254 views
+- Adjusted Monthly Leak: $477.87
+- Adjusted Yearly Exposure: $5,734.43
+- Daily Cost of Inaction: $15.71
+============================================================
+
+TOP 10 LEAKING VIDEOS BREAKDOWN:
+
+1. What lens should you buy? 35mm vs 50mm vs 85mm
+   - Video Link: https://www.youtube.com/watch?v=K_Tm2_dmqWI
+   - Views: 508,604
+   - Monthly Views: 305
+   - Adjusted Monthly Leak: $72.76
+   - Adjusted Yearly Exposure: $873.13
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. Tips to IMPROVE your Natural Light Portrait Photography
+   - Video Link: https://www.youtube.com/watch?v=UE_01EqTU3w
+   - Views: 388,355
+   - Monthly Views: 233
+   - Adjusted Monthly Leak: $55.58
+   - Adjusted Yearly Exposure: $667.01
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. 85mm Composition Tips for Portrait Photography
+   - Video Link: https://www.youtube.com/watch?v=-b8QeATqTvA
+   - Views: 358,214
+   - Monthly Views: 214
+   - Adjusted Monthly Leak: $51.05
+   - Adjusted Yearly Exposure: $612.62
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. How to Shoot in Manual Mode for Beginners + Examples
+   - Video Link: https://www.youtube.com/watch?v=Z6J5nN45cKk
+   - Views: 1,225,993
+   - Monthly Views: 735
+   - Adjusted Monthly Leak: $50.1
+   - Adjusted Yearly Exposure: $601.17
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+5. 6 Reasons Your Photos are not SHARP
+   - Video Link: https://www.youtube.com/watch?v=UJJDr4P7hDY
+   - Views: 1,185,794
+   - Monthly Views: 711
+   - Adjusted Monthly Leak: $48.46
+   - Adjusted Yearly Exposure: $581.54
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+6. Composition Tips for Portrait Photography you Need to Know
+   - Video Link: https://www.youtube.com/watch?v=4cTwmvUTxPw
+   - Views: 317,189
+   - Monthly Views: 190
+   - Adjusted Monthly Leak: $45.33
+   - Adjusted Yearly Exposure: $543.92
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+7. Google Pixel 5 Camera Review: Photo + Video + Astrophotography
+   - Video Link: https://www.youtube.com/watch?v=8rOmXjwbXxY
+   - Views: 300,927
+   - Monthly Views: 180
+   - Adjusted Monthly Leak: $42.94
+   - Adjusted Yearly Exposure: $515.29
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+8. Sony A7III vs A7IV Real World Comparison
+   - Video Link: https://www.youtube.com/watch?v=Wag7ltH7QSo
+   - Views: 284,716
+   - Monthly Views: 170
+   - Adjusted Monthly Leak: $40.56
+   - Adjusted Yearly Exposure: $486.66
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+9. Tips to Quickly IMPROVE your Photography
+   - Video Link: https://www.youtube.com/watch?v=rhZVv3LP_-E
+   - Views: 251,915
+   - Monthly Views: 151
+   - Adjusted Monthly Leak: $36.02
+   - Adjusted Yearly Exposure: $432.27
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+10. iPhone 13 Pro Max Camera Review - Photo &amp; Video
+   - Video Link: https://www.youtube.com/watch?v=QcdOeea8Mg8
+   - Views: 246,547
+   - Monthly Views: 147
+   - Adjusted Monthly Leak: $35.07
+   - Adjusted Yearly Exposure: $420.82
+   - Link Categories: AFFILIATE (Gear/Tech)
+

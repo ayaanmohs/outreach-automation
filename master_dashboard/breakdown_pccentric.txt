@@ -1,0 +1,68 @@
+CREATOR AUDIT BREAKDOWN: @pccentric
+Generated at: 2026-07-03 13:44:28
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 7,634,505 views
+- Adjusted Monthly Leak: $578.74
+- Adjusted Yearly Exposure: $6,944.95
+- Daily Cost of Inaction: $19.03
+============================================================
+
+TOP 7 LEAKING VIDEOS BREAKDOWN:
+
+1. What To Do If Your Gaming PC WONT BOOT! 😭
+   - Video Link: https://www.youtube.com/watch?v=B4psgnBnNik
+   - Views: 3,073,773
+   - Monthly Views: 1,844
+   - Adjusted Monthly Leak: $125.69
+   - Adjusted Yearly Exposure: $1508.24
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+2. A Beginners Guide To OVERCLOCKING - How To Overclock Your PC!
+   - Video Link: https://www.youtube.com/watch?v=zVl1kURDzho
+   - Views: 857,839
+   - Monthly Views: 514
+   - Adjusted Monthly Leak: $122.62
+   - Adjusted Yearly Exposure: $1471.44
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. Asus ROG Claymore Review - The £200 Keyboard!
+   - Video Link: https://www.youtube.com/watch?v=ZloRQ4gc9LQ
+   - Views: 599,119
+   - Monthly Views: 359
+   - Adjusted Monthly Leak: $85.64
+   - Adjusted Yearly Exposure: $1027.72
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. Gaming PC Parts Explained! 😃 A Beginner&#39;s Guide To Gaming Computer Components!
+   - Video Link: https://www.youtube.com/watch?v=2joA_S92p64
+   - Views: 1,944,825
+   - Monthly Views: 1,166
+   - Adjusted Monthly Leak: $79.47
+   - Adjusted Yearly Exposure: $953.69
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+5. The ULTIMATE i9 9900k Gaming PC Build! 😁 - RTX 2080 Ti 4K Gaming!
+   - Video Link: https://www.youtube.com/watch?v=v8Tw9LSA69s
+   - Views: 486,151
+   - Monthly Views: 291
+   - Adjusted Monthly Leak: $69.42
+   - Adjusted Yearly Exposure: $833.05
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+6. Watch This BEFORE Building A Gaming PC! 🙏
+   - Video Link: https://www.youtube.com/watch?v=Qf5-Zh5-kFM
+   - Views: 381,513
+   - Monthly Views: 228
+   - Adjusted Monthly Leak: $54.39
+   - Adjusted Yearly Exposure: $652.7
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+7. The Gaming Monitor Sweet Spot! 😁 HP Omen 27i Review! (1440p, IPS, 165Hz, GSync)
+   - Video Link: https://www.youtube.com/watch?v=2CjVQeb9jKk
+   - Views: 291,285
+   - Monthly Views: 174
+   - Adjusted Monthly Leak: $41.51
+   - Adjusted Yearly Exposure: $498.11
+   - Link Categories: AFFILIATE (Gear/Tech)
+

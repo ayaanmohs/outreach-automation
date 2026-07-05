@@ -1,30 +1,36 @@
 import os
 import re
 import time
+import sys
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-from googleapiclient.discovery import build
+import google.generativeai as genai
 
 load_dotenv()
+
+# Import rotating key manager from project root
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+from youtube_client_manager import get_youtube_client as _get_rotating_client
 
 # --- CONFIGURATION ---
 MIN_SUBS = 200000
 MAX_SUBS = 2000000
 MIN_CHANNEL_AGE_YEARS = 3
 MIN_LINK_DENSITY = 5
-MAX_LEADS_PER_RUN = 20
+MAX_LEADS_PER_RUN = 50
 SAVE_CHECKPOINT_EVERY = 5
 
-# High-intent "Link Rot" keywords
-KEYWORDS = [
-    "My desk setup 2022", "Logitech MX Master 3S review", "Sony A7IV long term review",
-    "Best productivity apps for mac 2023", "Everyday Carry tech 2022", "What's in my tech bag 2023",
-    "Home office upgrades 2022", "Aesthetic workspace tour 2022", "Budget 4k editing pc 2023",
-    "Top chrome extensions for productivity 2022", "Best budget camera for youtube 2023",
-    "Filmmaking gear for beginners 2022", "Best shopify apps for beginners 2023",
-    "Notion for small business tutorial 2022", "How to automate your life with zapier",
-    "Best microphones for podcasting 2022", "Ultrawide monitor vs dual monitor 2022",
-    "Secret tech gear you need 2023", "Minimalist tech setup tour", "Best laptop for students 2023"
+# Base niches to feed to Gemini
+NICHES = [
+    "Video Editing Software",
+    "Notion Productivity Systems",
+    "Shopify Dropshipping",
+    "CapCut Video Creation",
+    "Photography & Camera Gear",
+    "Kajabi & Course Creation"
 ]
 
 AFFILIATE_PATTERNS = [
@@ -36,10 +42,50 @@ AFFILIATE_PATTERNS = [
 ]
 
 def get_youtube_client():
-    api_key = os.getenv("YOUTUBE_API_KEY")
-    if not api_key:
-        raise ValueError("Missing YOUTUBE_API_KEY in .env file.")
-    return build("youtube", "v3", developerKey=api_key)
+    """Returns a YouTube client using the rotating key manager."""
+    youtube, key = _get_rotating_client()
+    print(f"🔑 Using API key: {key[:8]}…")
+    return youtube
+
+def get_gemini_keywords():
+    """Uses Gemini API to generate 20 fresh keywords that haven't been used before."""
+    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+    model = genai.GenerativeModel('gemini-1.5-flash')
+    
+    processed_file = "internal_tools/keywords_processed.md"
+    used_keywords = []
+    
+    # Read already used keywords
+    if os.path.exists(processed_file):
+        with open(processed_file, "r", encoding="utf-8") as f:
+            used_keywords = [line.strip() for line in f if line.strip()]
+            
+    print(f"🧠 Gemini: Found {len(used_keywords)} already processed keywords in memory.")
+    print("🧠 Gemini: Brainstorming 20 brand new long-tail search queries...")
+    
+    prompt = f"""
+    Act as a YouTube marketing expert. Generate 20 highly-specific, long-tail search queries that people type into YouTube to find in-depth tutorials, software reviews, or full setups in these niches:
+    {', '.join(NICHES)}
+    
+    These queries should target creators likely to drop affiliate links or digital products in their descriptions. (e.g. "My cinematic LUTs breakdown", "Notion workspace setup walkthrough").
+    
+    DO NOT generate any of the following queries, as we have already used them:
+    {', '.join(used_keywords) if used_keywords else "None"}
+    
+    CRITICAL INSTRUCTION: Output ONLY the 20 queries. One per line. Do not use bullet points, numbering, quotes, or any introductory text. Just the raw keywords.
+    """
+    
+    response = model.generate_content(prompt)
+    new_keywords = [kw.strip("-*\"' ") for kw in response.text.strip().split('\n') if kw.strip()]
+    
+    # Save the new keywords to our "Do Not Repeat" file
+    os.makedirs(os.path.dirname(processed_file), exist_ok=True)
+    with open(processed_file, "a", encoding="utf-8") as f:
+        for kw in new_keywords:
+            f.write(kw + "\n")
+            
+    print(f"✨ Gemini successfully invented {len(new_keywords)} fresh keywords!")
+    return new_keywords
 
 def get_processed_handles():
     processed = set()
@@ -48,21 +94,21 @@ def get_processed_handles():
         with open("processed_handles.txt", "r") as f:
             processed.update(line.strip().lower() for line in f if line.strip())
     
-    # Check creators_to_scan.txt (already found in current queue)
-    if os.path.exists("creators_to_scan.txt"):
-        with open("creators_to_scan.txt", "r") as f:
+    # Check internal_tools/creators_to_scan.txt (already found in current queue)
+    if os.path.exists("internal_tools/creators_to_scan.txt"):
+        with open("internal_tools/creators_to_scan.txt", "r") as f:
             processed.update(line.strip().lower() for line in f if line.strip())
             
     return processed
 
 def save_to_scan_list(handles):
     """
-    Appends found handles to creators_to_scan.txt.
+    Appends found handles to internal_tools/creators_to_scan.txt.
     """
-    with open("creators_to_scan.txt", "a") as f:
+    with open("internal_tools/creators_to_scan.txt", "a") as f:
         for h in handles:
             f.write(h + "\n")
-    print(f"💾 Checkpoint: {len(handles)} leads saved to creators_to_scan.txt")
+    print(f"💾 Checkpoint: {len(handles)} leads saved to internal_tools/creators_to_scan.txt")
 
 def is_monetizable_count(description):
     links = re.findall(r'https?://[^\s<>"]+', description)
@@ -81,7 +127,7 @@ def find_leads(youtube, keywords, processed):
     
     for kw in keywords:
         if len(leads) >= MAX_LEADS_PER_RUN:
-            print("\n🏁 Session limit reached (20 leads). Stopping.")
+            print("\n🏁 Session limit reached (100 leads). Stopping.")
             break
             
         print(f"\n🔍 Searching keyword: '{kw}'")
@@ -91,7 +137,7 @@ def find_leads(youtube, keywords, processed):
                 q=kw,
                 type="video",
                 part="snippet",
-                maxResults=10,
+                maxResults=20,
                 order="relevance"
             )
             search_response = search_request.execute()
@@ -167,7 +213,10 @@ if __name__ == "__main__":
     youtube = get_youtube_client()
     processed = get_processed_handles()
     
-    new_leads = find_leads(youtube, KEYWORDS, processed)
+    # Automatically brainstorm fresh keywords using Gemini
+    new_keywords = get_gemini_keywords()
+    
+    new_leads = find_leads(youtube, new_keywords, processed)
     
     if new_leads:
         print(f"\n✨ Mission Complete. Total {len(new_leads)} unique handles found.")

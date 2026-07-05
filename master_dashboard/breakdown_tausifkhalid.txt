@@ -1,0 +1,52 @@
+CREATOR AUDIT BREAKDOWN: @tausifkhalid
+Generated at: 2026-07-04 20:38:22
+============================================================
+CHANNEL-WIDE AUDIT METRICS:
+- Total Views Affected: 9,837,648 views
+- Adjusted Monthly Leak: $809.4
+- Adjusted Yearly Exposure: $9,712.81
+- Daily Cost of Inaction: $26.61
+============================================================
+
+TOP 5 LEAKING VIDEOS BREAKDOWN:
+
+1. How To Recover Deleted Photos On Android Devices?
+   - Video Link: https://www.youtube.com/watch?v=2j56w16LdAk
+   - Views: 6,220,380
+   - Monthly Views: 3,732
+   - Adjusted Monthly Leak: $537.41
+   - Adjusted Yearly Exposure: $6448.9
+   - Link Categories: COURSE / DIGITAL PRODUCT
+
+2. How To Make Unlimited Free Calls All Over The World
+   - Video Link: https://www.youtube.com/watch?v=r6pHgL7BnnM
+   - Views: 658,415
+   - Monthly Views: 395
+   - Adjusted Monthly Leak: $94.23
+   - Adjusted Yearly Exposure: $1130.77
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+3. Control Your Smartphone With Your Face
+   - Video Link: https://www.youtube.com/watch?v=PfGWw9_stP8
+   - Views: 557,751
+   - Monthly Views: 334
+   - Adjusted Monthly Leak: $79.68
+   - Adjusted Yearly Exposure: $956.15
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+4. How To Use Snapchat | Tips And Tricks | Hindi
+   - Video Link: https://www.youtube.com/watch?v=IFH-edSHejM
+   - Views: 1,323,061
+   - Monthly Views: 793
+   - Adjusted Monthly Leak: $54.05
+   - Adjusted Yearly Exposure: $648.61
+   - Link Categories: AFFILIATE (Gear/Tech)
+
+5. How To Use Your Android Device As a Microphone For Your Computer | Billi4You
+   - Video Link: https://www.youtube.com/watch?v=mI2dnXEts7o
+   - Views: 1,078,041
+   - Monthly Views: 646
+   - Adjusted Monthly Leak: $44.03
+   - Adjusted Yearly Exposure: $528.38
+   - Link Categories: AFFILIATE (Gear/Tech)
+
