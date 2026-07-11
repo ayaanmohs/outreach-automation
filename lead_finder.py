@@ -212,13 +212,36 @@ def find_leads(youtube, keywords, processed):
 if __name__ == "__main__":
     youtube = get_youtube_client()
     processed = get_processed_handles()
-    
-    # Automatically brainstorm fresh keywords using Gemini
-    new_keywords = get_gemini_keywords()
-    
-    new_leads = find_leads(youtube, new_keywords, processed)
-    
+
+    # ── Keyword Source Toggle ──────────────────────────────────────────
+    # Set USE_GEMINI = True once the Gemini API key issue is resolved.
+    # For now it reads keywords directly from keywords_to_search.py.
+    USE_GEMINI = False
+
+    if USE_GEMINI:
+        # Brainstorm fresh keywords using Gemini (kept for future use)
+        active_keywords = get_gemini_keywords()
+    else:
+        # Load keywords from keywords_to_search.py — flattens all tiers
+        # into a single list of individual keyword strings.
+        from keywords_to_search import (
+            keyword_tier1, keyword_tier2, keyword_tier3,
+            keyword_tier4, keyword_tier5
+        )
+        all_tiers = keyword_tier1 + keyword_tier2 + keyword_tier3 + keyword_tier4 + keyword_tier5
+        # Each tier is one big multi-line string — split into individual lines
+        active_keywords = []
+        for block in all_tiers:
+            for line in block.strip().split('\n'):
+                kw = line.strip()
+                if kw:
+                    active_keywords.append(kw)
+        print(f"📋 Loaded {len(active_keywords)} keywords from keywords_to_search.py")
+
+    new_leads = find_leads(youtube, active_keywords, processed)
+
     if new_leads:
         print(f"\n✨ Mission Complete. Total {len(new_leads)} unique handles found.")
     else:
         print("\n❌ No new leads found matching criteria.")
+
